@@ -6,6 +6,10 @@
     "arrow-spacing": "error",
     "block-spacing": "error",
     "brace-style": "error",
+    "comma-dangle": [
+        "warn",
+        "always-multiline"
+    ],
     "comma-spacing": "warn",
     "comma-style": "error",
     "curly": "warn",
