@@ -51,6 +51,7 @@
             "argsIgnorePattern": "^_"
         }
     ],
+    "no-useless-catch": "warn",
     "no-useless-escape": "warn",
     "no-useless-return": "warn",
     "no-with": "error",
