@@ -1,11 +1,11 @@
 {
 	"name": "eslint-config-mwalter",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Configuración de ESLint",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint .",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "eslint test.js"
 	},
 	"keywords": [
 		"eslint",
