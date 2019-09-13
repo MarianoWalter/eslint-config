@@ -7,10 +7,11 @@
 async function test() {
 	// Comment
 	return Promise.resolve(`Example ${1}`)
-		.then(str => `'${str}'`)
-		.catch(e => {
-			console.error('Error:', e);
-		});
+	.then(str => `'${str}'`)
+	.catch(e => {
+		e.hasOwnProperty('abc');
+		console.error('Error:', e);
+	});
 }
 
 let test_let = Promise.resolve(3);

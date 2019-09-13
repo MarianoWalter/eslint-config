@@ -20,7 +20,10 @@
     ],
     "indent": [
         "warn",
-        "tab"
+        "tab",
+        {
+            "MemberExpression": 0
+        }
     ],
     "key-spacing": "warn",
     "keyword-spacing": [
@@ -42,6 +45,7 @@
     "no-dupe-keys": "error",
     "no-eval": "warn",
     "no-extra-semi": "error",
+    "no-prototype-builtins": "off",
     "no-trailing-spaces": "warn",
     "no-undef": "warn",
     "no-unreachable": "warn",
@@ -86,5 +90,13 @@
     "space-in-parens": "warn",
     "space-infix-ops": "warn",
     "space-unary-ops": "warn",
-    "spaced-comment": "warn"
+    "spaced-comment": [
+        "warn",
+        "always",
+        {
+            "block": {
+                "balanced": true
+            }
+        }
+    ]
 }

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-mwalter",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Configuración de ESLint",
 	"main": "index.js",
 	"scripts": {
@@ -18,6 +18,6 @@
 	},
 	"license": "ISC",
 	"devDependencies": {
-		"eslint": "^6.2.2"
+		"eslint": "^6.3.0"
 	}
 }
