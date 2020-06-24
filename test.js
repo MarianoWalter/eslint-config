@@ -24,7 +24,20 @@ var test_var = test_let ? 1 : {
 		true,
 		{ test, b: 2.2 },
 		function() { /* anonymous */ },
-		async function test_attr1(_x) {
+		async function test_attr1(_x, ...rest) {
+			let _unused_var; // no-unused-vars { varsIgnorePattern }
+			switch (_x) {
+				// indent { SwitchCase=1 }
+				case 1: break;
+				case 2: {
+					console.info(...rest, {
+						asObj: { ...rest },
+					});
+					return;
+				}
+				/* eslint-disable-next-line indent */
+			default: break;
+			}
 			let c = 0;
 			while (c++ < 10) {
 				_x = await test_let;
